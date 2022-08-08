@@ -1,0 +1,90 @@
+.heading{
+    background-color: #c17116;
+    color:white;
+    height:40px;
+    width:100%;
+    text-align: center;
+    border-radius: 15px solid black;
+}
+
+.topbread{
+    
+    background-size:300px;
+    height:45px;
+    width:40%;
+    background-position: center;
+    background-color: orangered;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.bottombread{
+    background-size:300px;
+    height:45px;
+    width:40%;
+    background-position: center;
+    background-color: orangered;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.addtomato{
+    display:inline-block;
+    height:30px;
+    width:43%;
+    background-position: center;
+    background-color: red;
+    border-radius: 30px;
+    
+}
+.addmeat{
+    display:inline-block;
+    height:30px;
+    width:43%;
+    background-position: center;
+    background-color: maroon;
+    border-radius: 30px; 
+}
+.addlettuce{
+    display:inline-block;
+    height:30px;
+    width:43%;
+    background-position: center;
+    background-color: green;
+    border-radius: 30px; 
+}
+
+.ingredientsBlock{
+    background-color: #f4b46c;
+    margin:30px auto 0;
+    display:table;
+    max-width:200px;
+    width:100%;
+    border-radius:3px;
+    padding:20px;
+    text-align:center;
+}
+
+.ingredientsBlock p{
+    padding:0;
+    margin:0;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.ingrBtns{
+    margin:0 0 20px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.ingrbtn{
+    border:0;
+    background-color: #c17116;
+    color:#fff;
+    padding:5px;
+    cursor:pointer;
+    display:table;
+    width:95px;
+
+}
