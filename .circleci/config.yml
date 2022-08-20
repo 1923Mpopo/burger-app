@@ -2,7 +2,7 @@ version: 2.1
 workFlow:
    testDeploy:
        jobs:
-         test:
+         test
 
 jobs: 
   test:
@@ -10,4 +10,9 @@ jobs:
        - image:cing/module:17.2.0
     steps:
        -checkout
-       -run: node --version
+       -run:
+          name: install dependency
+          command: npm install
+        -run
+           name: run test
+           command: npm run test
