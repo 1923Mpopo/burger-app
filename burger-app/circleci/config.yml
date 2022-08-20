@@ -1,0 +1,14 @@
+version: 2.1
+workFlow:
+   testDeploy:
+       jobs:
+         test:
+
+jobs: 
+  test:
+    docker:
+       - image:cing/module:17.2.0
+    steps:
+       -checkout
+       -run: node --version
+       
